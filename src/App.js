@@ -7,9 +7,9 @@ class App extends Component {
 		name: '',
 		email: '',
 		password: '',
-		passwordConfirm: ''
-		// clickedSignUp: false,
-		// clickedSignIn: false
+		passwordConfirm: '',
+		clickedSignUp: false,
+		clickedSignIn: false
 	};
 
 	changeHandler = (e) => {
